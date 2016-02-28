@@ -1,13 +1,12 @@
-dependencies: /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/Actor.cpp \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/Actor.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/GraphObject.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/SpriteManager.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/freeglut.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/freeglut_std.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/freeglut_ext.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/GameConstants.h \
-  /Users/chuyuezhang/Downloads/FrackMan-9/FrackMan/GameController.h \
-  /Users/chuyuezhang/Desktop/FrackOff/StudentWorld.h \
-  /Users/chuyuezhang/Desktop/FrackOff/GameWorld.h \
-  /Users/chuyuezhang/Desktop/FrackOff/GameConstants.h \
-  /Users/chuyuezhang/Desktop/FrackOff/Actor.h
+dependencies: /Users/chuyuezhang/Desktop/FrackOff/FrackMan/Actor.cpp \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/Actor.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/GraphObject.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/SpriteManager.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/freeglut.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/freeglut_std.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/freeglut_ext.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/GameConstants.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/GameController.h \
+  /Users/chuyuezhang/Desktop/CS32/Project3/FrackMan/turninthis/StudentWorld.h \
+  /Users/chuyuezhang/Desktop/FrackOff/FrackMan/GameWorld.h \
+  /Users/chuyuezhang/Desktop/CS32/Project3/FrackMan/turninthis/Actor.h

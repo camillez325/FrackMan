@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3062C9CE1C838C4A0012AF3B /* StudentWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3062C9CD1C838C4A0012AF3B /* StudentWorld.cpp */; settings = {ASSET_TAGS = (); }; };
-		4B5BB2651A9110AA009A9A96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BB2641A9110AA009A9A96 /* main.cpp */; };
-		4B5BB2791A911293009A9A96 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BB26B1A911293009A9A96 /* Actor.cpp */; };
-		4B5BB27A1A911293009A9A96 /* GameController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BB26C1A911293009A9A96 /* GameController.cpp */; };
-		4B5BB27B1A911293009A9A96 /* GameWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B5BB26D1A911293009A9A96 /* GameWorld.cpp */; };
 		4B5BB2801A911630009A9A96 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5BB27F1A911630009A9A96 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,23 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3062C9CC1C838C340012AF3B /* StudentWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StudentWorld.h; path = ../../../Desktop/FrackOff/StudentWorld.h; sourceTree = "<group>"; };
-		3062C9CD1C838C4A0012AF3B /* StudentWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StudentWorld.cpp; path = ../../../Desktop/FrackOff/StudentWorld.cpp; sourceTree = "<group>"; };
-		4B5441191C6ECB9D00B0DA77 /* freeglut_std.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freeglut_std.h; sourceTree = "<group>"; };
-		4B54411A1C6ECB9D00B0DA77 /* freeglut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freeglut.h; sourceTree = "<group>"; };
+		3062C9D51C8391790012AF3B /* FrackOff */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FrackOff; sourceTree = "<group>"; };
 		4B5BB2611A9110AA009A9A96 /* FrackMan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FrackMan; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B5BB2641A9110AA009A9A96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		4B5BB26B1A911293009A9A96 /* Actor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
-		4B5BB26C1A911293009A9A96 /* GameController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameController.cpp; sourceTree = "<group>"; };
-		4B5BB26D1A911293009A9A96 /* GameWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameWorld.cpp; sourceTree = "<group>"; };
-		4B5BB26F1A911293009A9A96 /* Actor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Actor.h; sourceTree = "<group>"; };
-		4B5BB2701A911293009A9A96 /* GameConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstants.h; sourceTree = "<group>"; };
-		4B5BB2711A911293009A9A96 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
-		4B5BB2721A911293009A9A96 /* GameWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameWorld.h; sourceTree = "<group>"; };
-		4B5BB2731A911293009A9A96 /* freeglut_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freeglut_ext.h; sourceTree = "<group>"; };
-		4B5BB2741A911293009A9A96 /* GraphObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphObject.h; sourceTree = "<group>"; };
-		4B5BB2761A911293009A9A96 /* SoundFX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundFX.h; sourceTree = "<group>"; };
-		4B5BB2771A911293009A9A96 /* SpriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteManager.h; sourceTree = "<group>"; };
 		4B5BB27F1A911630009A9A96 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -63,8 +43,8 @@
 		4B5BB2581A9110AA009A9A96 = {
 			isa = PBXGroup;
 			children = (
+				3062C9D51C8391790012AF3B /* FrackOff */,
 				4B5BB27F1A911630009A9A96 /* OpenGL.framework */,
-				4B5BB2631A9110AA009A9A96 /* FrackMan */,
 				4B5BB2621A9110AA009A9A96 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,29 +55,6 @@
 				4B5BB2611A9110AA009A9A96 /* FrackMan */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4B5BB2631A9110AA009A9A96 /* FrackMan */ = {
-			isa = PBXGroup;
-			children = (
-				4B5BB26F1A911293009A9A96 /* Actor.h */,
-				4B5BB26B1A911293009A9A96 /* Actor.cpp */,
-				4B54411A1C6ECB9D00B0DA77 /* freeglut.h */,
-				4B5441191C6ECB9D00B0DA77 /* freeglut_std.h */,
-				4B5BB2731A911293009A9A96 /* freeglut_ext.h */,
-				4B5BB2701A911293009A9A96 /* GameConstants.h */,
-				3062C9CC1C838C340012AF3B /* StudentWorld.h */,
-				3062C9CD1C838C4A0012AF3B /* StudentWorld.cpp */,
-				4B5BB2711A911293009A9A96 /* GameController.h */,
-				4B5BB2721A911293009A9A96 /* GameWorld.h */,
-				4B5BB2741A911293009A9A96 /* GraphObject.h */,
-				4B5BB2761A911293009A9A96 /* SoundFX.h */,
-				4B5BB2771A911293009A9A96 /* SpriteManager.h */,
-				4B5BB2641A9110AA009A9A96 /* main.cpp */,
-				4B5BB26C1A911293009A9A96 /* GameController.cpp */,
-				4B5BB26D1A911293009A9A96 /* GameWorld.cpp */,
-			);
-			path = FrackMan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +113,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B5BB27B1A911293009A9A96 /* GameWorld.cpp in Sources */,
-				3062C9CE1C838C4A0012AF3B /* StudentWorld.cpp in Sources */,
-				4B5BB2651A9110AA009A9A96 /* main.cpp in Sources */,
-				4B5BB27A1A911293009A9A96 /* GameController.cpp in Sources */,
-				4B5BB2791A911293009A9A96 /* Actor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
